@@ -1,0 +1,42 @@
+footer {
+    padding: 20px;
+    background-color: #DC3544;
+    color: white;
+}
+
+.footer--info {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: white;
+    font-size: 14px;
+}
+
+.link:hover {
+    color: black;
+}
+
+p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.copyright {
+    grid-column: 1 / -1;
+}
+
+#cta--footer {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer--info {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,158 @@
+
+#servizi--container {
+    display: flex; /* Utilizziamo il display flex per controllare l'allineamento degli elementi interni */
+    justify-content: center; /* Allineamento orizzontale */
+    padding: 80px 20px !important;
+    width: 100%;
+}
+  
+.servizi--text {
+    position: relative;
+    width: 390px;
+    padding-left: 20px;
+}
+
+.card {
+    width: 390px;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px 2px rgba(2, 2, 2, 0.35);
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 3px 2px rgba(234, 5, 5, 0.35);
+    cursor: pointer; /* Aggiunge un'ombra quando il mouse passa sopra */
+    .card--cta {
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(186, 1, 1, 0.5);
+    }
+    .card--title {
+        border: none;
+    }
+}
+
+.card--background {
+    width: 100%;
+    height: 500px;
+}
+
+.card--body {
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.card--img {
+    position: absolute;
+    height: 100%;
+    transform: translate(-40%);
+    filter: blur(1px);
+}
+
+.card--cta {
+    position: absolute;
+    align-self: center;
+    left: 50%; /* sposta il div a metà della larghezza del contenitore */
+    transform: translateX(-50%); /* sposta indietro di metà della larghezza del div */
+    width: fit-content;
+    font-weight: lighter;
+    color: white;
+    display: none;
+    z-index: 2;
+}
+
+.card--cta--text {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.card--title {
+    position: absolute;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    padding: 7px;
+    border-radius: 2px;
+    color: white;
+    width: 80%;
+    min-height: fit-content;
+    z-index: 2;
+    border-top: solid 2px rgb(186, 1, 1);
+    width: 100%;
+    margin: 0;
+}
+
+.img_team {
+    width: 100%;
+}
+
+.mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mobile--servizi {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.mobile--card {
+    width: 100%;
+    background-color: rgb(157, 157, 157);
+    padding: 15px 20px 15px 15px;
+    border-radius: 2px;
+}
+
+.card--link > p {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.arrow {
+    color: rgb(209, 2, 2);
+}
+
+.card--link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+
+    .desktop {
+        display: none;
+    }
+
+    #servizi--container {
+        width: 370px;
+        margin-left: 0;
+        padding: 0px 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .servizi--text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}

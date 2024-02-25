@@ -1,0 +1,58 @@
+.hero {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero--img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1; /* Posiziona l'immagine dietro al contenuto */
+  filter: blur(1px);
+}
+
+.hero--body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Per centrare il testo all'interno */
+  z-index: 1; /* Posiziona il corpo sopra l'immagine */
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hero--h1 {
+  font-size: 52px;
+}
+
+.hero--p {
+  font-size: 22px;
+}
+
+.hero--cta {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bolder;
+  border-radius: 2px;
+  font-size: 24px;
+  border: solid 3px red;
+}
+
+.hero--cta:hover {
+  background-color: red;
+}
+
+@media (max-width: 1024px) {
+
+  .hero--img {
+    height: 100%;
+    width: auto;
+  }
+}

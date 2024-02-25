@@ -1,0 +1,46 @@
+.contatti {
+    margin-top: 100px;
+    display: flex;
+    padding: 100px 20px;
+    gap: 20px
+}
+
+.contatti--hero {
+    width: fit-content;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.contatti--img {
+    height: 100%;
+    border-radius: 2px;
+}
+
+.contatti--h2 {
+    margin-bottom: 20px;
+}
+
+.contatti--info {
+    padding: 2px 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 16px;
+    i {
+        color: #DC3544;
+    }
+    a {
+        color: #DC3544;
+    }
+}
+
+@media (max-width: 768px) {
+    .contatti {
+        flex-direction: column-reverse;
+        padding: 60px 20px;
+    }
+
+    .contatti--hero {
+        width: 100%;
+    }
+}

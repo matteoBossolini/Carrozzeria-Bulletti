@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import ReactDOM from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HelmetProvider } from 'react-helmet-async'
+
+import Home from "./pages/Home";
+import Layout from "./pages/Layout";
+import NoPage from "./pages/NoPage";
+import Carrozzeria from "./pages/Carrozzeria";
+import Officina from "./pages/Officina";
+import Contatti from "./pages/Contatti";
+import AltriServizi from "./pages/AltriServizi"
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HelmetProvider>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="carrozzeria" element={<Carrozzeria />} />
+          <Route path="Officina" element={<Officina />} />
+          <Route path="altri_servizi" element={<AltriServizi />} />
+          <Route path="Contatti" element={<Contatti />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </HelmetProvider>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />)
