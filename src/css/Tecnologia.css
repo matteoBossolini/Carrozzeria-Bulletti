@@ -1,0 +1,14 @@
+
+.container--tecnologia {
+    margin-top: 100px;
+    position: relative;
+    padding: 0px 20px;
+    p {
+        font-size: 16px;
+    }
+}
+
+.tech--img {
+    width: 100%;
+    margin-bottom: 20px;
+}

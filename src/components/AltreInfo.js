@@ -39,8 +39,7 @@ export default function AltreInfo() {
                 </div>
                 <div className="tecnologia--text">
                     <h2>Tecnologia e Sostenibilità</h2>
-                    <p>Investiamo molto nella tecnologia per offrire ai nostri clienti servizi impeccabili e rapidi, come ad esempio l’allestimento di una zona per la riparazione in giornata e lo spettrofotometro Glasurit di ultima generazione.
-                    La nuova soluzione TEXA per la messa a punto di radar, lidar, telecamere e sensori che sfrutta la digitalizzazione, RCCS3 con monitor.</p>
+                    <p>Siamo convinti che la combinazione di tecnologia all'avanguardia e impegno per la sostenibilità ci permetta di offrire un servizio eccellente, rispettando allo stesso tempo l'ambiente in cui operiamo. Scegliere Carrozzeria Bulletti significa fare la scelta di affidarsi a professionisti che pongono al centro dei propri valori l'innovazione e il rispetto dell'ambiente</p>
                     <Link to="tecnologia_e_sostenibilità" className="tecnologia--link">Vedi di più</Link>
                 </div>
             </section>
