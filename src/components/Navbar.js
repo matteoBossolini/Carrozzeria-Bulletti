@@ -5,15 +5,15 @@ import { Link } from "react-router-dom"
 export default function Navbar() {
 
     function call() {
-        window.location.href = "tel:05756294364";
+        window.location.href = "tel:0575381414";
     }
 
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-                <a className="navbar-brand" href="#">
-                    <img src="logo_carrozzeria.png" height="80" alt="logo" />
-                </a>
+                <Link className="navbar-brand" to="/">
+                    <img src="logo_carrozzeria.png" alt="logo" className="navbar--img" />
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -32,6 +32,9 @@ export default function Navbar() {
                         <Link to="../officina" className="dropdown-item">Officina meccanica</Link>
                         <Link to="../altri_servizi" className="dropdown-item">Altri servizi</Link>
                         </div>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="../tecnologia_e_sostenibilità" className="nav-link">Tecnologia e Sostenibilità</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="../contatti" className="nav-link">Contatti</Link>

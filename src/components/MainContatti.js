@@ -1,7 +1,14 @@
 
 import "../css/Contatti.css"
 
+import { useEffect } from "react"
+
 export default function MainContatti() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Questo farà scorrere la pagina in cima quando viene caricata
+      }, []); // Questo hook viene eseguito solo dopo il rendering iniziale della pagina
+
     return (
         <main className="contatti">
             <section className="contatti--hero">

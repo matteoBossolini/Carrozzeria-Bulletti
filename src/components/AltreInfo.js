@@ -1,44 +1,47 @@
 
 import "../css/AltreInfo.css"
 
+import { Link } from "react-router-dom"
+
 export default function AltreInfo() {
     return(
         <main>
             <section className="tecnologia">
                 <div className="tecnologia--cards">
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    <ol className="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img class="d-block w-100" src="tecnologia/riparazione.png" alt="First slide" />
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                        <img className="d-block w-100" src="tecnologia/riparazione.png" alt="First slide" />
                         </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="tecnologia/spettrofotometro.png" alt="Second slide" />
+                        <div className="carousel-item">
+                        <img className="d-block w-100" src="tecnologia/spettrofotometro.png" alt="Second slide" />
                         </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="carrozzeria.png" alt="Third slide" />
+                        <div className="carousel-item">
+                        <img className="d-block w-100" src="colonnina.png" alt="Third slide" />
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
                     </a>
                     </div>
 
                 </div>
                 <div className="tecnologia--text">
-                    <h2>La nostra tecnologia</h2>
+                    <h2>Tecnologia e Sostenibilità</h2>
                     <p>Investiamo molto nella tecnologia per offrire ai nostri clienti servizi impeccabili e rapidi, come ad esempio l’allestimento di una zona per la riparazione in giornata e lo spettrofotometro Glasurit di ultima generazione.
                     La nuova soluzione TEXA per la messa a punto di radar, lidar, telecamere e sensori che sfrutta la digitalizzazione, RCCS3 con monitor.</p>
+                    <Link to="tecnologia_e_sostenibilità" className="tecnologia--link">Vedi di più</Link>
                 </div>
             </section>
             <section className="partner">

@@ -29,7 +29,7 @@
 }
 
 .tecnologia--text > p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .partner--text {
@@ -37,7 +37,7 @@
 }
 
 .partner--text > p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .partner--row {
@@ -55,6 +55,16 @@
 .carousel {
     border-radius: 2px;
     overflow: hidden;
+}
+
+.tecnologia--link {
+    color: rgb(186, 1, 1);
+    font-size: 16px;
+    font-style: italic;
+}
+
+.tecnologia--link:hover {
+    color: black;
 }
 
 @media (max-width: 768px) {

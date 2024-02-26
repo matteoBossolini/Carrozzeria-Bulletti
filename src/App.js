@@ -10,6 +10,7 @@ import Carrozzeria from "./pages/Carrozzeria";
 import Officina from "./pages/Officina";
 import Contatti from "./pages/Contatti";
 import AltriServizi from "./pages/AltriServizi"
+import Tecnologia from "./pages/Tecnologia";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="carrozzeria" element={<Carrozzeria />} />
           <Route path="Officina" element={<Officina />} />
           <Route path="altri_servizi" element={<AltriServizi />} />
+          <Route path="tecnologia_e_sostenibilità" element={<Tecnologia />} />
           <Route path="Contatti" element={<Contatti />} />
           <Route path="*" element={<NoPage />} />
         </Route>

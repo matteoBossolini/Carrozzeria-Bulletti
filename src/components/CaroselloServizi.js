@@ -10,7 +10,12 @@ export default function CaroselloServizi() {
                 <div class="card-deck">
                     <section className="servizi--text">
                         <h2>I nostri servizi</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum volutpat ipsum, quis finibus mauris posuere cursus. Aenean imperdiet laoreet orci. Maecenas auctor nisi ut fermentum feugiat. Vestibulum pellentesque in nisi nec ullamcorper. Aliquam tristique tristique nibh non porta</p>
+                        <p>Offriamo un <strong>servizio a 360°</strong> per la cura della tua auto.
+                            <br />
+                            <br />
+                            Siamo nati come autocarrozzeria e successivamente ci siamo espansi per rendere l'esperienza del nostro cliente sempre più completa.
+                            Oltre al tradizionale servizio di <Link to="carrozzeria" className="servizi--link">carrozzeria</Link> e di <Link to="officina" className="servizi--link">officina meccanica</Link>, abbiamo investito in macchinari e tecniche per far spledere la tua auto al 100%, come <Link to="altri_servizi" className="servizi--link">la cura per i cerchi</Link> o <Link to="altri_servizi" className="servizi--link">trattamenti nanotecnologici</Link>
+                        </p>
                     </section>
                     <div class="card">
                         <Link to="carrozzeria">
@@ -78,13 +83,13 @@ export default function CaroselloServizi() {
                         </Link>
                     </div>
                     <div className="mobile--card">
-                        <Link to="carrozzeria" className="card--link">
+                        <Link to="officina" className="card--link">
                         <p>Officina</p>
                         <p className="arrow">&gt;</p>
                         </Link>
                     </div>
                     <div className="mobile--card">
-                        <Link to="carrozzeria" className="card--link">
+                        <Link to="altri_servizi" className="card--link">
                         <p>Altri servizi</p>
                         <p className="arrow">&gt;</p>
                         </Link>

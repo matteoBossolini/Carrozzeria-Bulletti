@@ -5,31 +5,41 @@
     width: 100%; /* Imposta la larghezza al 100% della finestra */
     z-index: 1000; /* Imposta lo z-index per assicurarsi che la navbar sia sopra gli altri elementi */
     background-color: #ffffff;
-  }
+}
   
-  #nav--cta {
+#nav--cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .cta--text > p {
+.cta--text > p {
     margin: 0px;
-  }
+}
   
-  .cta--text {
+.cta--text {
     text-align: left;
     font-stretch: extra-condensed;
     padding-left: 10px;
     border-left: solid 1px;
-  }
+}
   
-  .cta--icon {
+.cta--icon {
     height: min-content;
     padding-right: 10px;
-  }
+}
 
 .dropdown-menu {
   background-color: #F8F9FA !important;
   border: none !important;
+}
+
+.navbar--img {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .navbar--img {
+    height: 50px;
+  }
 }

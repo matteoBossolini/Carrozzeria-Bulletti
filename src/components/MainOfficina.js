@@ -1,7 +1,14 @@
 
 import "../css/Catalogo.css"
 
+import { useEffect } from "react"
+
 export default function MainOfficina() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Questo farà scorrere la pagina in cima quando viene caricata
+      }, []); // Questo hook viene eseguito solo dopo il rendering iniziale della pagina
+
     return (
         <main>
             <div className="hero-servizi">

@@ -10,6 +10,17 @@
     position: relative;
     width: 390px;
     padding-left: 20px;
+    p {
+        font-size: 16px;
+    }
+}
+
+.servizi--link {
+    color: rgb(186, 1, 1);
+}
+
+.servizi--link:hover {
+    color: black;
 }
 
 .card {
@@ -109,7 +120,7 @@
 .mobile--card {
     width: 100%;
     background-color: rgb(157, 157, 157);
-    padding: 15px 20px 15px 15px;
+    padding: 15px 20px 0px 15px;
     border-radius: 2px;
 }
 

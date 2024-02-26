@@ -1,0 +1,31 @@
+
+.pop-up {
+    width: calc(100% - 20px);
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.button--popup {
+    width: 100%;
+    font-size: 20px;
+    background-color: #25D366;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.35);
+}
+
+.fa-whatsapp {
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .pop-up {
+        display: block;
+    }
+}

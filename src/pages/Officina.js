@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import MainOfficina from "../components/MainOfficina";
 
 import { Helmet } from "react-helmet-async";
+import PopUp from "../components/PopUpCTA";
 
 const Carrozzeria = () => {
     return (
@@ -13,6 +14,7 @@ const Carrozzeria = () => {
             </Helmet>
             <Navbar />
             <MainOfficina />
+            <PopUp />
             <Footer />
         </div>
     );
