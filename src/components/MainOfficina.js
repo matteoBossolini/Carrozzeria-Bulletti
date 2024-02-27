@@ -14,9 +14,11 @@ export default function MainOfficina() {
             <div className="hero-servizi">
                 <div className="catalogo--categoria">
                     <h2 className="catalogo--categoria--h2">Officina</h2>
+                    <p>Per le parti più nascoste...</p>
                 </div>
             </div>
             <div className="servizi--catalogo">
+                <p>Siamo un'officina meccanica che può assisterti in ogni tuo problema, riguardo:</p>
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="flush-headingOne">
@@ -56,7 +58,7 @@ export default function MainOfficina() {
                                     <li>Montaggio gancio di traino</li>
                                     <li>Interventi su impianto alettrico</li>
                                 </ul>
-                                <p><strong>A disposizione diagnosi di ultima generazione &lpar;TEXA RCCS3&rpar;</strong></p>
+                                <p><strong>A disposizione diagnosi di ultima generazione (TEXA RCCS3)</strong></p>
                             </div>
                         </div>
                     </div>

@@ -14,9 +14,23 @@ export default function MainCarrozzeria() {
             <div className="hero-servizi">
                 <div className="catalogo--categoria">
                     <h2 className="catalogo--categoria--h2">Carrozzeria</h2>
+                    <p>Per gli esterni della tua auto...</p>
                 </div>
             </div>
             <div className="servizi--catalogo">
+                <p>La Carrozzeria Bulletti offre al cliente un supporto a 360°, grazie ad una gamma di servizi ausiliari alle riparazioni auto:
+                    <ul>
+                        <li>assistenza pratiche assicurative auto e incasso del pagamento a proprio carico</li>
+                        <li>servizio auto sostitutive</li>
+                        <li>assistenza  di officina meccanica, gommista ed elettrauto</li>
+                        <li>rottamazione della vettura sinistrata</li>
+                    </ul>
+                </p>
+                <p>
+                Nei cicli di produzione è stata inserita una linea di intervento rapido, per le riparazioni veloci dell’auto in modo da garantirvi anche riparazioni in giornata.
+                <br />Grazie ad importanti investimenti in attrezzature tra le piú innovative esistenti nel settore e alla costante formazione del personale garantiamo riparazioni complete e precise entro poche ore. L'utilizzo di speciali lampade ad infrarossi e a raggi UV oltre la creazione di un reparto appositamente allestito, consentono di accelerare le fasi di preparazione, mascheratura, verniciatura ed essiccazione della vernice garantendo risultati ottimali in tempi brevissimi
+                </p>
+                <p><strong>Il personale è costantemente aggiornato e qualificato per: saldature, riparazioni alluminio, uso f-gas e riparazione su veicoli ibridi ed elettrici.</strong></p>
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="flush-headingOne">
