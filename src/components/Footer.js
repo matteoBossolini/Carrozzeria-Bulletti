@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div>
                 <Link to="../contatti">
-                    <button class="btn btn-lg btn-outline-dark" id="cta--footer">Contattaci</button>
+                    <button className="btn btn-lg btn-outline-dark" id="cta--footer">Contattaci</button>
                 </Link>
                 {/*<br/>
                 <a className="link" href="#">Privacy policy</a>*/}

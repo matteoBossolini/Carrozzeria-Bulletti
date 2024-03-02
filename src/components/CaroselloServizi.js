@@ -6,8 +6,8 @@ export default function CaroselloServizi() {
     return (
         <div>
             <main className="desktop">
-                <div class="col-xxl-8 px-4 py-5" id="servizi--container">
-                <div class="card-deck">
+                <div className="col-xxl-8 px-4 py-5" id="servizi--container">
+                <div className="card-deck">
                     <section className="servizi--text">
                         <h2>I nostri servizi</h2>
                         <p>Offriamo un <strong>servizio a 360°</strong> per la cura della tua auto.
@@ -17,7 +17,7 @@ export default function CaroselloServizi() {
                             Oltre al tradizionale servizio di <Link to="carrozzeria" className="servizi--link">carrozzeria</Link> e di <Link to="officina" className="servizi--link">officina meccanica</Link>, abbiamo investito in macchinari e tecniche per far spledere la tua auto al 100%, come <Link to="altri_servizi" className="servizi--link">la cura per i cerchi</Link> o <Link to="altri_servizi" className="servizi--link">trattamenti nanotecnologici</Link>
                         </p>
                     </section>
-                    <div class="card">
+                    <div className="card">
                         <Link to="carrozzeria">
                         <div className="card--body">
                         <div className="card--background">
@@ -33,7 +33,7 @@ export default function CaroselloServizi() {
                         </div>
                         </Link>
                     </div>
-                    <div class="card">
+                    <div className="card">
                         <Link to="officina">
                         <div className="card--body">
                         <div className="card--background">
@@ -49,7 +49,7 @@ export default function CaroselloServizi() {
                         </div>
                         </Link>
                     </div>
-                    <div class="card">
+                    <div className="card">
                         <Link to="altri_servizi">
                         <div className="card--body">
                         <div className="card--background">
@@ -73,7 +73,12 @@ export default function CaroselloServizi() {
             <main className="mobile">
                 <div className="mobile--text">
                     <h2>I nostri servizi</h2>
-                    <p>Lorem ispum dolrem sit amet</p>
+                    <p>Offriamo un <strong>servizio a 360°</strong> per la cura della tua auto.
+                            <br />
+                            <br />
+                            Siamo nati come autocarrozzeria e successivamente ci siamo espansi per rendere l'esperienza del nostro cliente sempre più completa.
+                            Oltre al tradizionale servizio di <Link to="carrozzeria" className="servizi--link">carrozzeria</Link> e di <Link to="officina" className="servizi--link">officina meccanica</Link>, abbiamo investito in macchinari e tecniche per far spledere la tua auto al 100%, come <Link to="altri_servizi" className="servizi--link">la cura per i cerchi</Link> o <Link to="altri_servizi" className="servizi--link">trattamenti nanotecnologici</Link>
+                    </p>
                 </div>
                 <div className="mobile--servizi">
                     <div className="mobile--card">
